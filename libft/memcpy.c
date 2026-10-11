@@ -15,14 +15,14 @@ void *memcpy(void *dest, const void *src, size_t n)
 	return (d);
 }
 
-int main()
-{
-	// const char src[] = "aymane";
-	// char dest[] = "xxxxxx";
+// int main()
+// {
+// 	// const char src[] = "aymane";
+// 	// char dest[] = "xxxxxx";
 
-	int src = 23456789;
-	int dest = 90;
-	memcpy(&dest, &src, 4);
-	printf("%d", dest);
-	return 0;
-}
+// 	int src = 23456789;
+// 	int dest = 90;
+// 	memcpy(&dest, &src, 4);
+// 	printf("%d", dest);
+// 	return 0;
+// }
